@@ -1,0 +1,91 @@
+.formContainer {
+  width: 100%;
+  max-width: 1200px;
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+  margin: 20px auto;
+  /* border: 1px solid #ccc; */
+  /* color: var(--text); */
+  color: white;
+}
+
+.tabHeader {
+  display: flex;
+  /* border-bottom: 2px solid #eee; */
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  /* color: #999; */
+  transition: 0.3s;
+  color: var(--textSoft);
+}
+
+.tab.active {
+  font-weight: bold;
+  color: #673ab7;
+  border-bottom: 3px solid #673ab7;
+}
+
+.inputRow {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+  .inputRow {
+    flex-direction: column;
+  }
+}
+
+.inputField,
+.selectField {
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: var(--bg);
+  color: rgb(117, 114, 114);
+}
+
+.inputField:focus,
+.selectField:focus {
+  border-color: #673ab7;
+  outline: none;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.button.primary {
+  background-color: #673ab7;
+  color: white;
+}
+
+.button.primary:hover {
+  background-color: #512da8;
+}
+
+.button.secondary {
+  background-color: #ccc;
+  color: black;
+}

@@ -1,0 +1,28 @@
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.button.primary {
+  background-color: #673ab7;
+  color: white;
+}
+
+.button.primary:hover {
+  background-color: #512da8;
+}
+
+.button.secondary {
+  background-color: #ccc;
+  color: black;
+}
