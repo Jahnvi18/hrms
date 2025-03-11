@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 <!-- # clone command -->
 
-git clone https://github.com/Jahnvi18/multi-step-form.git
+git clone https://github.com/Jahnvi18/hrms.git
 
  <!-- open project -->
 
